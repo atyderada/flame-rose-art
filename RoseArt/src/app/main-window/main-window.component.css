@@ -1,0 +1,14 @@
+.side-navs {
+    width: 75px;
+    background-color : #FEAA00
+}
+
+#main-content {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-com {
+  cursor: pointer;
+}
