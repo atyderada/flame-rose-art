@@ -10,9 +10,12 @@ export class LandingScreenComponent implements OnInit {
 
   public mapUrl: FirebaseObjectObservable<String>;
 
-  constructor(private af: AngularFire) {
-    this.mapUrl = this.af.database.object("/map-photo");
+  constructor() {
   }
+
+  // constructor(private af: AngularFire) {
+  //   this.mapUrl = this.af.database.object("/map-photo");
+  // }
 
   ngOnInit() {
   }

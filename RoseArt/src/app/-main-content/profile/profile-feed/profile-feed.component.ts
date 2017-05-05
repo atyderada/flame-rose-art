@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileFeedComponent implements OnInit {
 
-  public feed = [1];
+  public feed = [1, 2, 3];
 
   constructor() { }
 

@@ -1,7 +1,14 @@
 .side-navs {
-    width: 75px;
     background-color : #FEAA00
 }
+
+/*#left-section {
+  background-color: #FEAA00;
+}
+
+#right-section {
+  background-color: #34A853
+}*/
 
 #main-content {
   margin: 0;
@@ -11,4 +18,8 @@
 
 .nav-com {
   cursor: pointer;
+}
+
+#frame-board {
+  margin: 50px;
 }
